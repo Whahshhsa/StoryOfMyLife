@@ -1,0 +1,183 @@
+
+/* font styles */
+
+.barrio-regular {
+    font-family: "Barrio", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .atma-bold {
+    font-family: "Atma", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  /* line */
+
+.line {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+
+}
+
+.v-line {
+    position: absolute;
+    width: 5px;
+    height: 1530px;
+    background-color: rgb(58, 57, 57);
+    top: 155.5%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.h-line, .h-line2, .h-line3, .h-line4, .h-line5, .h-line6, .h-line7 {
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color: rgb(58, 57, 57);
+    
+}
+
+.h-line {
+    top: 40%; 
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+}
+
+.h-line2 {
+    top: 80%; 
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+}
+
+.h-line3 {
+    top: 118%; 
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+}
+
+.h-line4 {
+    top: 156%; 
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+}
+
+.h-line5 {
+    top: 194%; 
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+}
+
+.h-line6 {
+    top: 233%; 
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+}
+
+.h-line7 {
+    top: 271%; 
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+}
+
+  /* body */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+.word {
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    color: #333;
+    font-family: barrio;
+    text-align: center;
+    text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content:center;
+}
+
+.event-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+    gap: 20px;
+}
+
+
+.event, .event2, .event3, .event4, .event5, .event6, .event7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: green;
+    width: 100%;
+    height: 35%;
+}
+
+.text, .text3, .text5, .text7 {
+    background-color: grey;
+    font-family: atma;
+    width: 40%;
+    height: 90%;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+.picture, .picture3, .picture5, .picture7 {
+    background-color: red;
+    width: 40%;
+    height: 90%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+
+.picture2, .picture4, .picture6 {
+    background-color: grey;
+    width: 40%;
+    height: 90%;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: 10px;
+    padding: 10px;
+}    
+
+.text2, .text4, .text6 {
+    background-color: grey;
+    font-family: atma;
+    width: 40%;
+    height: 90%;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.picture img, .picture2 img, .picture3 img, .picture4 img, .picture5 img, .picture6 img, .picture7 img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
